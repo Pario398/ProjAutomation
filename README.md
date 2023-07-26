@@ -32,3 +32,12 @@ The os.path.join function combines the destinationPath and projName to form the 
 3. The script creates the project folder using os.makedirs(projPath). If the folder already exists, it catches the FileExistsError and notifies the user that the project folder already exists.
 4. The script then creates a new README.md file inside the project folder. It writes the project name as the title and adds a placeholder message to instruct the user to enter contents into the README file for documentation.
 
+## Example
+```bash
+python ProjAutomation.py
+Enter the directory path to create the project folder: /Users/users/Desktop/Projects
+Enter the project name: NewProject
+Project folder 'NewProject' created successfully.
+README.md file created successfully.
+```
+
