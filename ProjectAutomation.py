@@ -1,8 +1,8 @@
 import os
 
 def ProjAutomation():
-    destinationPath = input("Enter the directory path to create the project folder: ")
-    projName = input("Enter the project name: ")
+    destinationPath = input("Enter the directory path to create the project folder: ").strip()
+    projName = input("Enter the project name: ").strip()
     projPath = os.path.join(destinationPath, projName)
     try:
         os.makedirs(projPath)
